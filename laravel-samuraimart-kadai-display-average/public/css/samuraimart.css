@@ -1,0 +1,205 @@
+body {
+    background-color: #f8fafc;
+    font-family: 'メイリオ', 'Meiryo', 'Hiragino Kaku Gothic ProN', 'ヒラギノ角ゴ ProN W3', sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: 0.11px;
+}
+
+h1 {
+    font-size: 26px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: -0.13px;
+}
+
+h2 {
+    font-size: 22px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+}
+
+h3 {
+    font-size: 18px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: 0.04px;
+}
+
+big {
+    font-size: 16px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: 0.08px;
+}
+
+caption {
+    font-size: 12px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: 0.08px;
+}
+
+label {
+    font-size: 14px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #191919;
+}
+
+.samuraimart-login-input {
+    border-radius: 2px;
+    border: solid 1px #b2b2b2;
+    background-color: #ffffff;
+}
+
+.samuraimart-check-label {
+    font-size: 12px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #000000;
+}
+
+.samuraimart-require-input-label {
+    border-radius: 1px;
+    background-color: #e2001b;
+}
+
+.samuraimart-require-input-label-text {
+    font-size: 14px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #ffffff;
+}
+
+.samuraimart-submit-button {
+    font-size: 14px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #ffffff;
+    background-color: #0fbe9f;
+}
+
+.samuraimart-login-text {
+    font-size: 14px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #0fbe9f;
+}
+
+.samuraimart-header-container {
+    box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.1);
+    background-color: #ffffff;
+}
+
+.samuraimart-header-search-input {
+    border: solid 1px #e5e5e5;
+}
+
+.samuraimart-header-search-button {
+    background-color: #0fbe9f;
+}
+
+.samuraimart-header-search-icon {
+    color: #ffffff;
+}
+
+.samuraimart-header-fav-icon {
+    color: #191919;
+}
+
+.samuraimart-header-shoppingcart-icon {
+    color: #ffffff;
+}
+
+.samuraimart-favorite-button {
+    border-radius: 2px;
+    border: solid 1px #0fbe9f;
+    background-color: #ffffff;
+}
+
+.text-favorite {
+    color: #0fbe9f;
+}
+
+.samuraimart-sidebar-category-label {
+    width: 156px;
+    height: 20px;
+    font-size: 13px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #191919;
+}
+
+.samuraimart-favorite-add-cart {
+    border-radius: 2px;
+    color: #ffffff;
+    background-color: #0fbe9f;
+}
+
+.review-score-color {
+    color: #0fbe9f;
+}
+
+.review-score-color:focus {
+    color: #0fbe9f;
+}
+
+.samuraimart-delete-submit-button {
+    border-radius: 2px;
+    color: #ffffff;
+    background-color: #d94b0e;
+}
+
+th,
+td {
+    background-color: #f8fafc !important;
+}
+
+.ster-rating,.ster-rating-half,.ster-rating-none {
+    --size:1em;
+    width: var(--size);
+    height: var(--size);
+    clip-path: polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%);
+    background: #0fbe9f;
+    display: inline-block;
+}
+
+.ster-rating-half{
+    background: linear-gradient(to right,#0fbe9f 50%,#ddd 50%, #ddd 100%);
+}
+.ster-rating-none{
+    background: #ddd;
+}
